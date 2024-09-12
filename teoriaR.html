@@ -3,30 +3,7 @@
 <head>
     <meta charset = "UTF-8">
     <title> Documento </title>
-    <style>
-   /* Seletor Universal*/
-   *{
-            margin: 20px;
-        }
-        /*Seletor de tipo,aplicando em um tag*/
-        p{
-            color: rgb(169, 227, 242);
-        }
-
-         /*Seletor de classe*/
-         .paragrafo{
-            background-color: rgb(169, 227, 242);
-            /*margin: 10px; - Aplica em todas as margens*/
-            /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
-            /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
-            margin-left: 10px;
-
-        }
-        .imagem{
-            width: 100px;
-            height: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     Olá Mundo!
@@ -84,6 +61,35 @@
         linguagem de marcação para conteudo de um site
     </dd>
  </dl>
+ <table>
+    <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Professao</th>
+</tr>
+<tr>
+
+    <td>ricardo</td>
+    <td>33</td>
+    <td>professor</td>
+</tr>
+ </table>
+<table class="tabela">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>Profisão</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>lucas</td>
+            <td>13</td>
+            <td>professor</td>
+        </tr>
+    </tbody>
+</table>
  <hr>
 </body>
 </html>

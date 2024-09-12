@@ -1,61 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
+/* Seletor Universal*/
+*{
+         margin: 20px;
+     }
+     /*Seletor de tipo,aplicando em um tag*/
+     p{
+         color: rgb(169, 227, 242);
+     }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
+      /*Seletor de classe*/
+      .paragrafo{
+         background-color: rgb(169, 227, 242);
+         /*margin: 10px; - Aplica em todas as margens*/
+         /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
+         /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+         margin-left: 10px;
 
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    background-color: #007BFF;
-    color: white;
-    padding: 50px;
-    text-align: center;
-}
-
-.features {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.feature {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 45%;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
+     }
+     .imagem{
+         width: 100px;
+         height: 100px;
+     }
+     .tabela{
+        border-collapse: collapse;
+        width: 100%;
+     }
