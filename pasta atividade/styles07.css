@@ -1,0 +1,7 @@
+/* Seletor Universal*/
+*{
+    .tabela{
+       border-collapse: collapse;
+       width: 100%;
+    }
+    }

@@ -1,27 +1,53 @@
-
 /* Seletor Universal*/
-*{
-         margin: 20px;
-     }
-     /*Seletor de tipo,aplicando em um tag*/
-     p{
-         color: rgb(169, 227, 242);
-     }
+* {
+  margin: 20px;
+}
+/*Seletor de tipo,aplicando em um tag*/
+p {
+  color: rgb(169, 227, 242);
+}
 
-      /*Seletor de classe*/
-      .paragrafo{
-         background-color: rgb(169, 227, 242);
-         /*margin: 10px; - Aplica em todas as margens*/
-         /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
-         /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
-         margin-left: 10px;
+/*Seletor de classe*/
+.paragrafo {
+  background-color: rgb(169, 227, 242);
+  /*margin: 10px; - Aplica em todas as margens*/
+  /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
+  /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+  margin-left: 10px;
+}
+.imagem {
+  width: 100px;
+  height: 100px;
+}
+.tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+.formulario {
+  border-collapse: collapse;
+  background-color: rgb(108, 238, 255);
+}
+.input-nome {
+  /*remove a borda do elemento*/
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  /* define a opacidade do elemento */
+  opacity: 70%;
+}
+.botao {
+  background: rgb(108, 104, 222);
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
 
-     }
-     .imagem{
-         width: 100px;
-         height: 100px;
-     }
-     .tabela{
-        border-collapse: collapse;
-        width: 100%;
-     }
+  /* aplica sompra no texto posiçao x,y blur e rgba que aplica com opacidade */
+  text-shadow: 11px 1px 5px rgba(119, 10, 114, 0.9);
+}
+.checar {
+  background-color: #fff;
+  border: 2px solid #6206f7;
+  border-radius: 5px;
+}
