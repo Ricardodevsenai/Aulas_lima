@@ -1,0 +1,21 @@
+.div1{
+    background-color: rgb(255, 240, 240);
+}
+.div2{
+    background-color: rgb(3, 251, 3);
+}
+.div3{
+ background-color: blue;
+}
+.container{
+    border: 2px solid black;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+.item{
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+}
