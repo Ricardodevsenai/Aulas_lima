@@ -19,3 +19,45 @@
     text-align: center;
     color: aliceblue;
 }
+
+.imagem{
+    height: 50px;
+    width: 50px;
+}
+
+.div-coluna{
+    height: 150px;
+    width: 150px;
+  background-color: aqua;
+}
+.secao{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 22, 22);
+    gap: 10px;
+}
+.secao-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.alinhar-Centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.alinhar-entre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
